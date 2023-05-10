@@ -19,9 +19,11 @@ export default function Products() {
             {products.map((product) => (
                 <div>
                     <h2>{product.title}</h2>
+                    <img src={product.imageUrl} />
                     <p>{product.description}</p>
                     <p>Price: {product.price}</p>
                     <p>Discounted price: {product.discountedPrice}</p>
+                    <p>Rating: {product.rating}</p>
                 </div>
             ))}
         </div>
