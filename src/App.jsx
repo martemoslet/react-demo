@@ -6,6 +6,8 @@ import Home from './components/pages/Home';
 import Contact from './components/pages/Contact';
 import Nav from './components/ui/Nav';
 import Product from './components/pages/Product';
+import Form from './components/pages/Form';
+
 
 function Layout() {
   return (
@@ -28,6 +30,7 @@ export default function App() {
               <Route index element={<Home />} />
               <Route path='products' element={<Products />} />
               <Route path='contact' element={<Contact />} />
+              <Route path='form' element={<Form />} />
               <Route path="product/:id" element={<Product />} />
             </Route>
           </Routes>
