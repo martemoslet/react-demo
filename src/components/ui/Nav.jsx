@@ -13,6 +13,9 @@ export default function Nav() {
                     <Link to="/contact">Contact</Link>
                 </li>
                 <li>
+                    <Link to="/form">Form</Link>
+                </li>
+                <li>
                     <Link to="/product/1">Product with ID: 1</Link>
                 </li>
                 <li>
